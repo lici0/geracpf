@@ -1,10 +1,10 @@
 # Gerador de CPF
 
-Este repositório contém a estrutura básica do site http://geracpf.org, um micro site que desenvolvi.
+Este repositório contém a estrutura básica do site http://geracpf.com, um micro site que desenvolvi.
 
 ## Como funciona?
 
-O site [Gerador de CPF](http://geracpf.org) é voltado para auxiliar deselvovedores que precisam implementar ou testar em seus sistemas a funcionalidade de validação de números de CPF (cadastro de pessoas físicas), de acordo com a regra dos dígitos verificadores.
+O site [Gerador de CPF](http://geracpf.com) é voltado para auxiliar deselvovedores que precisam implementar ou testar em seus sistemas a funcionalidade de validação de números de CPF (cadastro de pessoas físicas), de acordo com a regra dos dígitos verificadores.
 
 Para gerar um número de CPF válido (segundo essa regra) basta acessar o site e clicar no botão "Gerar Novo CPF". O resultado será exibido no caixa de texto e poderá ser facilmente copiado para uso.
 
@@ -20,7 +20,7 @@ if (new CPF().validate(n)) {
 }
 ```
 
-Para quebrar um pouco a monotonia natural de sites voltados à programadores, o [Gerador de CPF](http://geracpf.org) utiliza um layout limpo e direto, com uma imagem de fundo que busca cobrir toda a tela e passar uma sensação de tranquilidade:
+Para quebrar um pouco a monotonia natural de sites voltados à programadores, o [Gerador de CPF](http://geracpf.com) utiliza um layout limpo e direto, com uma imagem de fundo que busca cobrir toda a tela e passar uma sensação de tranquilidade:
 
 ![http://imgur.com/aJDZVw9](http://i.imgur.com/aJDZVw9.png)
 
