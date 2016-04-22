@@ -1,18 +1,18 @@
 # Gerador de CPF
 
-Este repositÛrio contÈm a estrutura b·sica do site http://geracpf.com, um micro site que desenvolvi.
+Este reposit√≥rio cont√©m a estrutura b√°sica do site http://geracpf.com, um micro site que desenvolvi.
 
 ## Como funciona?
 
-O site [Gerador de CPF](http://geracpf.com) È voltado para auxiliar deselvovedores que precisam implementar ou testar em seus sistemas a funcionalidade de validaÁ„o de n˙meros de CPF (cadastro de pessoas fÌsicas), de acordo com a regra dos dÌgitos verificadores.
+O site [Gerador de CPF](http://geracpf.com) √© voltado para auxiliar desenvolvedores que precisam implementar ou testar em seus sistemas a funcionalidade de valida√ß√£o de n√∫meros de CPF (cadastro de pessoas f√≠sicas), de acordo com a regra dos d√≠gitos verificadores.
 
-Para gerar um n˙mero de CPF v·lido (segundo essa regra) basta acessar o site e clicar no bot„o "Gerar Novo CPF". O resultado ser· exibido no caixa de texto e poder· ser facilmente copiado para uso.
+Para gerar um n√∫mero de CPF v√°lido (segundo essa regra) basta acessar o site e clicar no bot√£o "Gerar Novo CPF". O resultado ser√° exibido no caixa de texto e poder√° ser facilmente copiado para uso.
 
-Os dÌgitos verificadores s„o calculados atravÈs de um algoritmo que soma o produto de cada dÌgito que compıe o CPF por um peso e calcula o resto da divis„o dessa soma por 11. O cÛdigo fonte deste algoritmo escrito em JavaScript pode ser obtido [aqui](https://github.com/tome-vilela/geracpf/blob/master/jss/all.js).
+Os d√≠gitos verificadores s√£o calculados atrav√©s de um algoritmo que soma o produto de cada d√≠gito que comp√µe o CPF por um peso e calcula o resto da divis√£o dessa soma por 11. O c√≥digo fonte deste algoritmo escrito em JavaScript pode ser obtido [aqui](https://github.com/tome-vilela/geracpf/blob/master/jss/all.js).
 
-Neste cÛdigo fonte s„o definidas duas funÁıes, uma para gerar um n˙mero de CPF e outra para valid·-lo:
+Neste c√≥digo fonte s√£o definidas duas fun√ß√µes, uma para gerar um n√∫mero de CPF e outra para valid√°-lo:
 
-```
+```javascript
 var n = new CPF().generate();
 
 if (new CPF().validate(n)) {
@@ -20,14 +20,14 @@ if (new CPF().validate(n)) {
 }
 ```
 
-Para quebrar um pouco a monotonia natural de sites voltados ‡ programadores, o [Gerador de CPF](http://geracpf.com) utiliza um layout limpo e direto, com uma imagem de fundo que busca cobrir toda a tela e passar uma sensaÁ„o de tranquilidade:
+Para quebrar um pouco a monotonia natural de sites voltados √† programadores, o [Gerador de CPF](http://geracpf.com) utiliza um layout limpo e direto, com uma imagem de fundo que busca cobrir toda a tela e passar uma sensa√ß√£o de tranquilidade:
 
 ![http://imgur.com/aJDZVw9](http://i.imgur.com/aJDZVw9.png)
 
-Apesar de ser compatÌvel com dispositivos mobile, este site È voltado principalmente para acesso por desktops e notebooks, dado que dificilmente um desenvolvedor ir· codificar atravÈs de um smartphone.
+Apesar de ser compat√≠vel com dispositivos mobile, este site √© voltado principalmente para acesso por desktops e notebooks, dado que dificilmente um desenvolvedor ir√° codificar atrav√©s de um smartphone.
 
-Esperamos que nosso site seja ˙til a vocÍs!
+Esperamos que nosso site seja √∫til a voc√™s!
 
 ### Contato
 
-Fique ‡ vontade para entrar em contato atravÈs do e-mail tome.vilela@gmail.com
+Fique √† vontade para entrar em contato atrav√©s do e-mail tome.vilela@gmail.com
